@@ -9,7 +9,7 @@ import urllib.request
 import subprocess
 
 SLEEP_TIME = 0.1
-OUTPUT_FILE = 'output/candidates_archive_from_2012.csv'
+OUTPUT_FILE = 'candidates_archive_from_2012.csv'
 
 SITE_FIRST_PART = "http://www.cvk.gov.ua/pls/"
 
@@ -57,7 +57,7 @@ PLACE = "Україна"
 METADATA_FIELDS = ['Author', 'Create Date', 'Last Modified By', 'Modify Date']
 METADATA_TAGS = ['author', 'createdate', 'lastmodifiedby', 'modifydate']
 
-OUTPUT_FOLDER = "output/programs/"
+OUTPUT_FOLDER = "programs/"
 
 ROW_HEADERS = (
   'election', 'election_type', 'election_date',
